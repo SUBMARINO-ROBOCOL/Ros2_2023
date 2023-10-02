@@ -1,0 +1,39 @@
+[0.760s] Invoking command in '/home/yesopi/Submarine/src/Interface': PYTHONPATH=/home/yesopi/Submarine/build/Interface/prefix_override:/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Submarine/build/Interface/build install --record /home/yesopi/Submarine/build/Interface/install.log --single-version-externally-managed
+[0.926s] running egg_info
+[0.926s] creating ../../build/Interface/Interface.egg-info
+[0.926s] writing ../../build/Interface/Interface.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../../build/Interface/Interface.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../../build/Interface/Interface.egg-info/entry_points.txt
+[0.927s] writing requirements to ../../build/Interface/Interface.egg-info/requires.txt
+[0.927s] writing top-level names to ../../build/Interface/Interface.egg-info/top_level.txt
+[0.927s] writing manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[0.929s] reading manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[0.929s] writing manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.929s] creating /home/yesopi/Submarine/build/Interface/build
+[0.930s] creating /home/yesopi/Submarine/build/Interface/build/lib
+[0.930s] creating /home/yesopi/Submarine/build/Interface/build/lib/Interface
+[0.930s] copying Interface/InterfaceNode.py -> /home/yesopi/Submarine/build/Interface/build/lib/Interface
+[0.930s] copying Interface/__init__.py -> /home/yesopi/Submarine/build/Interface/build/lib/Interface
+[0.930s] running install
+[0.943s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.943s]   warnings.warn(
+[0.943s] running install_lib
+[0.945s] creating /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+[0.945s] copying /home/yesopi/Submarine/build/Interface/build/lib/Interface/InterfaceNode.py -> /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+[0.945s] copying /home/yesopi/Submarine/build/Interface/build/lib/Interface/__init__.py -> /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+[0.946s] byte-compiling /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface/InterfaceNode.py to InterfaceNode.cpython-310.pyc
+[0.950s] byte-compiling /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface/__init__.py to __init__.cpython-310.pyc
+[0.950s] running install_data
+[0.951s] creating /home/yesopi/Submarine/install/Interface/share/ament_index
+[0.951s] creating /home/yesopi/Submarine/install/Interface/share/ament_index/resource_index
+[0.951s] creating /home/yesopi/Submarine/install/Interface/share/ament_index/resource_index/packages
+[0.951s] copying resource/Interface -> /home/yesopi/Submarine/install/Interface/share/ament_index/resource_index/packages
+[0.951s] copying package.xml -> /home/yesopi/Submarine/install/Interface/share/Interface
+[0.951s] running install_egg_info
+[0.953s] Copying ../../build/Interface/Interface.egg-info to /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface-0.0.0-py3.10.egg-info
+[0.954s] running install_scripts
+[0.973s] Installing Interface script to /home/yesopi/Submarine/install/Interface/lib/Interface
+[0.973s] writing list of installed files to '/home/yesopi/Submarine/build/Interface/install.log'
+[0.987s] Invoked command in '/home/yesopi/Submarine/src/Interface' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/Interface/prefix_override:/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Submarine/build/Interface/build install --record /home/yesopi/Submarine/build/Interface/install.log --single-version-externally-managed

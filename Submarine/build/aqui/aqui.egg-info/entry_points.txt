@@ -1,0 +1,4 @@
+[console_scripts]
+TestPub = aqui.TestPub:main
+TestSub = aqui.TestSub:main
+

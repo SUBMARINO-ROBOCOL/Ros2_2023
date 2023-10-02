@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Interface/Interface.egg-info/PKG-INFO
+../../build/Interface/Interface.egg-info/SOURCES.txt
+../../build/Interface/Interface.egg-info/dependency_links.txt
+../../build/Interface/Interface.egg-info/entry_points.txt
+../../build/Interface/Interface.egg-info/requires.txt
+../../build/Interface/Interface.egg-info/top_level.txt
+../../build/Interface/Interface.egg-info/zip-safe
+Interface/InterfaceNode.py
+Interface/__init__.py
+resource/Interface
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

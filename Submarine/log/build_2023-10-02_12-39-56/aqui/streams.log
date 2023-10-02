@@ -1,0 +1,49 @@
+[0.805s] Invoking command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui': PYTHONPATH=/home/yesopi/Submarine/build/aqui/prefix_override:/home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/aqui build --build-base /home/yesopi/Submarine/build/aqui/build install --record /home/yesopi/Submarine/build/aqui/install.log --single-version-externally-managed
+[0.981s] running egg_info
+[0.981s] creating ../../../../../build/aqui/aqui.egg-info
+[0.982s] writing ../../../../../build/aqui/aqui.egg-info/PKG-INFO
+[0.982s] writing dependency_links to ../../../../../build/aqui/aqui.egg-info/dependency_links.txt
+[0.982s] writing entry points to ../../../../../build/aqui/aqui.egg-info/entry_points.txt
+[0.982s] writing requirements to ../../../../../build/aqui/aqui.egg-info/requires.txt
+[0.982s] writing top-level names to ../../../../../build/aqui/aqui.egg-info/top_level.txt
+[0.982s] writing manifest file '../../../../../build/aqui/aqui.egg-info/SOURCES.txt'
+[0.983s] reading manifest file '../../../../../build/aqui/aqui.egg-info/SOURCES.txt'
+[0.984s] writing manifest file '../../../../../build/aqui/aqui.egg-info/SOURCES.txt'
+[0.984s] running build
+[0.984s] running build_py
+[0.984s] creating /home/yesopi/Submarine/build/aqui/build
+[0.984s] creating /home/yesopi/Submarine/build/aqui/build/lib
+[0.984s] creating /home/yesopi/Submarine/build/aqui/build/lib/aqui
+[0.984s] copying aqui/TestPub.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+[0.984s] copying aqui/TestCtrl.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+[0.984s] copying aqui/__init__.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+[0.985s] copying aqui/TestSub.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+[0.985s] running install
+[0.985s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.985s]   warnings.warn(
+[0.985s] running install_lib
+[0.986s] creating /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+[0.986s] copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/TestPub.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+[0.986s] copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/TestCtrl.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+[0.986s] copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/__init__.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+[0.986s] copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/TestSub.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+[0.986s] byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/TestPub.py to TestPub.cpython-310.pyc
+[0.986s] byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/TestCtrl.py to TestCtrl.cpython-310.pyc
+[0.986s] byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/__init__.py to __init__.cpython-310.pyc
+[0.987s] byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/TestSub.py to TestSub.cpython-310.pyc
+[0.987s] running install_data
+[0.987s] creating /home/yesopi/Submarine/install/aqui/share/ament_index
+[0.987s] creating /home/yesopi/Submarine/install/aqui/share/ament_index/resource_index
+[0.987s] creating /home/yesopi/Submarine/install/aqui/share/ament_index/resource_index/packages
+[0.987s] copying resource/aqui -> /home/yesopi/Submarine/install/aqui/share/ament_index/resource_index/packages
+[0.987s] copying package.xml -> /home/yesopi/Submarine/install/aqui/share/aqui
+[0.987s] creating /home/yesopi/Submarine/install/aqui/share/aqui/launch
+[0.987s] copying launch/pub.launch.py -> /home/yesopi/Submarine/install/aqui/share/aqui/launch
+[0.988s] copying launch/sub.launch.py -> /home/yesopi/Submarine/install/aqui/share/aqui/launch
+[0.988s] running install_egg_info
+[0.989s] Copying ../../../../../build/aqui/aqui.egg-info to /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui-0.0.0-py3.10.egg-info
+[0.989s] running install_scripts
+[1.005s] Installing TestPub script to /home/yesopi/Submarine/install/aqui/lib/aqui
+[1.005s] Installing TestSub script to /home/yesopi/Submarine/install/aqui/lib/aqui
+[1.005s] writing list of installed files to '/home/yesopi/Submarine/build/aqui/install.log'
+[1.037s] Invoked command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/aqui/prefix_override:/home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/aqui build --build-base /home/yesopi/Submarine/build/aqui/build install --record /home/yesopi/Submarine/build/aqui/install.log --single-version-externally-managed

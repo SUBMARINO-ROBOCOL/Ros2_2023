@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../../../build/aqui/aqui.egg-info
+writing ../../../../../build/aqui/aqui.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/aqui/aqui.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/aqui/aqui.egg-info/entry_points.txt
+writing requirements to ../../../../../build/aqui/aqui.egg-info/requires.txt
+writing top-level names to ../../../../../build/aqui/aqui.egg-info/top_level.txt
+writing manifest file '../../../../../build/aqui/aqui.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/aqui/aqui.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/aqui/aqui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yesopi/Submarine/build/aqui/build
+creating /home/yesopi/Submarine/build/aqui/build/lib
+creating /home/yesopi/Submarine/build/aqui/build/lib/aqui
+copying aqui/TestPub.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+copying aqui/TestCtrl.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+copying aqui/__init__.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+copying aqui/TestSub.py -> /home/yesopi/Submarine/build/aqui/build/lib/aqui
+running install
+running install_lib
+creating /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/TestPub.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/TestCtrl.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/__init__.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+copying /home/yesopi/Submarine/build/aqui/build/lib/aqui/TestSub.py -> /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui
+byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/TestPub.py to TestPub.cpython-310.pyc
+byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/TestCtrl.py to TestCtrl.cpython-310.pyc
+byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui/TestSub.py to TestSub.cpython-310.pyc
+running install_data
+creating /home/yesopi/Submarine/install/aqui/share/ament_index
+creating /home/yesopi/Submarine/install/aqui/share/ament_index/resource_index
+creating /home/yesopi/Submarine/install/aqui/share/ament_index/resource_index/packages
+copying resource/aqui -> /home/yesopi/Submarine/install/aqui/share/ament_index/resource_index/packages
+copying package.xml -> /home/yesopi/Submarine/install/aqui/share/aqui
+creating /home/yesopi/Submarine/install/aqui/share/aqui/launch
+copying launch/pub.launch.py -> /home/yesopi/Submarine/install/aqui/share/aqui/launch
+copying launch/sub.launch.py -> /home/yesopi/Submarine/install/aqui/share/aqui/launch
+running install_egg_info
+Copying ../../../../../build/aqui/aqui.egg-info to /home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages/aqui-0.0.0-py3.10.egg-info
+running install_scripts
+Installing TestPub script to /home/yesopi/Submarine/install/aqui/lib/aqui
+Installing TestSub script to /home/yesopi/Submarine/install/aqui/lib/aqui
+writing list of installed files to '/home/yesopi/Submarine/build/aqui/install.log'

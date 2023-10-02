@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/Interface/Interface.egg-info
+writing ../../build/Interface/Interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/Interface/Interface.egg-info/dependency_links.txt
+writing entry points to ../../build/Interface/Interface.egg-info/entry_points.txt
+writing requirements to ../../build/Interface/Interface.egg-info/requires.txt
+writing top-level names to ../../build/Interface/Interface.egg-info/top_level.txt
+writing manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yesopi/Submarine/build/Interface/build
+creating /home/yesopi/Submarine/build/Interface/build/lib
+creating /home/yesopi/Submarine/build/Interface/build/lib/Interface
+copying Interface/InterfaceNode.py -> /home/yesopi/Submarine/build/Interface/build/lib/Interface
+copying Interface/__init__.py -> /home/yesopi/Submarine/build/Interface/build/lib/Interface
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+copying /home/yesopi/Submarine/build/Interface/build/lib/Interface/InterfaceNode.py -> /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+copying /home/yesopi/Submarine/build/Interface/build/lib/Interface/__init__.py -> /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+byte-compiling /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface/InterfaceNode.py to InterfaceNode.cpython-310.pyc
+byte-compiling /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yesopi/Submarine/install/Interface/share/ament_index
+creating /home/yesopi/Submarine/install/Interface/share/ament_index/resource_index
+creating /home/yesopi/Submarine/install/Interface/share/ament_index/resource_index/packages
+copying resource/Interface -> /home/yesopi/Submarine/install/Interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/yesopi/Submarine/install/Interface/share/Interface
+running install_egg_info
+Copying ../../build/Interface/Interface.egg-info to /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Interface script to /home/yesopi/Submarine/install/Interface/lib/Interface
+writing list of installed files to '/home/yesopi/Submarine/build/Interface/install.log'

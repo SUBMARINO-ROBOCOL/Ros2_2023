@@ -1,0 +1,23 @@
+[0.417s] Invoking command in '/home/yesopi/Submarine/src/Interface': PYTHONPATH=/home/yesopi/Submarine/build/Interface/prefix_override:/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Submarine/build/Interface/build install --record /home/yesopi/Submarine/build/Interface/install.log --single-version-externally-managed
+[0.588s] running egg_info
+[0.589s] writing ../../build/Interface/Interface.egg-info/PKG-INFO
+[0.589s] writing dependency_links to ../../build/Interface/Interface.egg-info/dependency_links.txt
+[0.589s] writing entry points to ../../build/Interface/Interface.egg-info/entry_points.txt
+[0.589s] writing requirements to ../../build/Interface/Interface.egg-info/requires.txt
+[0.589s] writing top-level names to ../../build/Interface/Interface.egg-info/top_level.txt
+[0.590s] reading manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[0.591s] writing manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[0.591s] running build
+[0.591s] running build_py
+[0.591s] running install
+[0.591s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.591s]   warnings.warn(
+[0.591s] running install_lib
+[0.592s] running install_data
+[0.592s] running install_egg_info
+[0.593s] removing '/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface-0.0.0-py3.10.egg-info' (and everything under it)
+[0.593s] Copying ../../build/Interface/Interface.egg-info to /home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages/Interface-0.0.0-py3.10.egg-info
+[0.594s] running install_scripts
+[0.608s] Installing interface script to /home/yesopi/Submarine/install/Interface/lib/Interface
+[0.608s] writing list of installed files to '/home/yesopi/Submarine/build/Interface/install.log'
+[0.623s] Invoked command in '/home/yesopi/Submarine/src/Interface' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/Interface/prefix_override:/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Submarine/build/Interface/build install --record /home/yesopi/Submarine/build/Interface/install.log --single-version-externally-managed

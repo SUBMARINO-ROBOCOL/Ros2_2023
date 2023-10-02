@@ -1,0 +1,314 @@
+[0.228s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.228s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f50c3ff8910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f50c3f94d60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f50c3f94d60>>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yesopi/Submarine'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/build) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/build) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/build) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/install) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/install) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/install) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/log) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/log) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/log) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/TestLatencia/src/aqui) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/CosasBasicasParaQueCopies/TestLatencia/src/aqui' with type 'ros.ament_python' and name 'aqui'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/build) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream' with type 'ros.ament_python' and name 'cam_stream'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/Interface) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Interface' with type 'ros.ament_python' and name 'Interface'
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.286s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'Interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'Interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yesopi/Submarine/build/Interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yesopi/Submarine/install/Interface', 'merge_install': False, 'path': '/home/yesopi/Submarine/src/Interface', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'aqui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'aqui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yesopi/Submarine/build/aqui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yesopi/Submarine/install/aqui', 'merge_install': False, 'path': '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'cam_stream' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'cam_stream' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yesopi/Submarine/build/cam_stream', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yesopi/Submarine/install/cam_stream', 'merge_install': False, 'path': '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream', 'symlink_install': False, 'test_result_base': None}
+[0.334s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.336s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yesopi/Submarine/src/Interface' with build type 'ament_python'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('Interface', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/Interface/share/Interface/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yesopi/Submarine/install/Interface/share/Interface/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/Interface/share/Interface/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui' with build type 'ament_python'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqui', 'ament_prefix_path')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/aqui/share/aqui/hook/ament_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yesopi/Submarine/install/aqui/share/aqui/hook/ament_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/aqui/share/aqui/hook/ament_prefix_path.sh'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream' with build type 'ament_python'
+[0.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_stream', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/hook/ament_prefix_path.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yesopi/Submarine/src/Interface'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.712s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui'
+[0.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream'
+[0.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream': PYTHONPATH=/home/yesopi/Submarine/build/cam_stream/prefix_override:/home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/cam_stream build --build-base /home/yesopi/Submarine/build/cam_stream/build install --record /home/yesopi/Submarine/build/cam_stream/install.log --single-version-externally-managed
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui': PYTHONPATH=/home/yesopi/Submarine/build/aqui/prefix_override:/home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/aqui build --build-base /home/yesopi/Submarine/build/aqui/build install --record /home/yesopi/Submarine/build/aqui/install.log --single-version-externally-managed
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yesopi/Submarine/src/Interface': PYTHONPATH=/home/yesopi/Submarine/build/Interface/prefix_override:/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Submarine/build/Interface/build install --record /home/yesopi/Submarine/build/Interface/install.log --single-version-externally-managed
+[1.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/cam_stream/prefix_override:/home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/cam_stream build --build-base /home/yesopi/Submarine/build/cam_stream/build install --record /home/yesopi/Submarine/build/cam_stream/install.log --single-version-externally-managed
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream' for CMake module files
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream' for CMake config files
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream/lib'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream/bin'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream/lib/pkgconfig/cam_stream.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages'
+[1.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_stream', 'pythonpath')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/hook/pythonpath.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/hook/pythonpath.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/hook/pythonpath.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/cam_stream/bin'
+[1.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_stream)
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/package.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/package.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/package.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/cam_stream/share/cam_stream/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yesopi/Submarine/install/cam_stream/share/colcon-core/packages/cam_stream)
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui' for CMake module files
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/TestLatencia/src/aqui' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/aqui/prefix_override:/home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/aqui build --build-base /home/yesopi/Submarine/build/aqui/build install --record /home/yesopi/Submarine/build/aqui/install.log --single-version-externally-managed
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui' for CMake config files
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui/lib'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui/bin'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui/lib/pkgconfig/aqui.pc'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui/lib/python3.10/site-packages'
+[1.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('aqui', 'pythonpath')
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/aqui/share/aqui/hook/pythonpath.ps1'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yesopi/Submarine/install/aqui/share/aqui/hook/pythonpath.dsv'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/aqui/share/aqui/hook/pythonpath.sh'
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/aqui/bin'
+[1.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aqui)
+[1.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/aqui/share/aqui/package.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yesopi/Submarine/install/aqui/share/aqui/package.dsv'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/aqui/share/aqui/package.sh'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/aqui/share/aqui/package.bash'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/aqui/share/aqui/package.zsh'
+[1.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yesopi/Submarine/install/aqui/share/colcon-core/packages/aqui)
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface' for CMake module files
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface' for CMake config files
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yesopi/Submarine/src/Interface' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/Interface/prefix_override:/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Submarine/build/Interface/build install --record /home/yesopi/Submarine/build/Interface/install.log --single-version-externally-managed
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface/lib'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface/bin'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface/lib/pkgconfig/Interface.pc'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface/lib/python3.10/site-packages'
+[1.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('Interface', 'pythonpath')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/Interface/share/Interface/hook/pythonpath.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yesopi/Submarine/install/Interface/share/Interface/hook/pythonpath.dsv'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yesopi/Submarine/install/Interface/share/Interface/hook/pythonpath.sh'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/yesopi/Submarine/install/Interface/bin'
+[1.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Interface)
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/Interface/share/Interface/package.ps1'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yesopi/Submarine/install/Interface/share/Interface/package.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/Interface/share/Interface/package.sh'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/Interface/share/Interface/package.bash'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/yesopi/Submarine/install/Interface/share/Interface/package.zsh'
+[1.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yesopi/Submarine/install/Interface/share/colcon-core/packages/Interface)
+[1.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.393s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.397s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.398s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.398s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.406s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yesopi/Submarine/install/local_setup.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yesopi/Submarine/install/_local_setup_util_ps1.py'
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yesopi/Submarine/install/setup.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yesopi/Submarine/install/local_setup.sh'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yesopi/Submarine/install/_local_setup_util_sh.py'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yesopi/Submarine/install/setup.sh'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yesopi/Submarine/install/local_setup.bash'
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yesopi/Submarine/install/setup.bash'
+[1.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yesopi/Submarine/install/local_setup.zsh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yesopi/Submarine/install/setup.zsh'

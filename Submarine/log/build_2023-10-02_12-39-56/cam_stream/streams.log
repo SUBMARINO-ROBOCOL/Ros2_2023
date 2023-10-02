@@ -1,0 +1,52 @@
+[0.796s] Invoking command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream': PYTHONPATH=/home/yesopi/Submarine/build/cam_stream/prefix_override:/home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/cam_stream build --build-base /home/yesopi/Submarine/build/cam_stream/build install --record /home/yesopi/Submarine/build/cam_stream/install.log --single-version-externally-managed
+[0.971s] running egg_info
+[0.971s] creating ../../../../../build/cam_stream/cam_stream.egg-info
+[0.971s] writing ../../../../../build/cam_stream/cam_stream.egg-info/PKG-INFO
+[0.972s] writing dependency_links to ../../../../../build/cam_stream/cam_stream.egg-info/dependency_links.txt
+[0.972s] writing entry points to ../../../../../build/cam_stream/cam_stream.egg-info/entry_points.txt
+[0.972s] writing requirements to ../../../../../build/cam_stream/cam_stream.egg-info/requires.txt
+[0.972s] writing top-level names to ../../../../../build/cam_stream/cam_stream.egg-info/top_level.txt
+[0.972s] writing manifest file '../../../../../build/cam_stream/cam_stream.egg-info/SOURCES.txt'
+[0.973s] reading manifest file '../../../../../build/cam_stream/cam_stream.egg-info/SOURCES.txt'
+[0.973s] writing manifest file '../../../../../build/cam_stream/cam_stream.egg-info/SOURCES.txt'
+[0.974s] running build
+[0.974s] running build_py
+[0.974s] creating /home/yesopi/Submarine/build/cam_stream/build
+[0.974s] creating /home/yesopi/Submarine/build/cam_stream/build/lib
+[0.974s] creating /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream
+[0.974s] copying cam_stream/driver_node.py -> /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream
+[0.974s] copying cam_stream/realsense_node.py -> /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream
+[0.974s] copying cam_stream/image_ctrl.py -> /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream
+[0.974s] copying cam_stream/__init__.py -> /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream
+[0.974s] running install
+[0.975s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.975s]   warnings.warn(
+[0.975s] running install_lib
+[0.975s] creating /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream
+[0.976s] copying /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream/driver_node.py -> /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream
+[0.976s] copying /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream/realsense_node.py -> /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream
+[0.976s] copying /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream/image_ctrl.py -> /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream
+[0.976s] copying /home/yesopi/Submarine/build/cam_stream/build/lib/cam_stream/__init__.py -> /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream
+[0.976s] byte-compiling /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream/driver_node.py to driver_node.cpython-310.pyc
+[0.976s] byte-compiling /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream/realsense_node.py to realsense_node.cpython-310.pyc
+[0.977s] byte-compiling /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream/image_ctrl.py to image_ctrl.cpython-310.pyc
+[0.978s] byte-compiling /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream/__init__.py to __init__.cpython-310.pyc
+[0.978s] running install_data
+[0.978s] creating /home/yesopi/Submarine/install/cam_stream/share/ament_index
+[0.978s] creating /home/yesopi/Submarine/install/cam_stream/share/ament_index/resource_index
+[0.978s] creating /home/yesopi/Submarine/install/cam_stream/share/ament_index/resource_index/packages
+[0.979s] copying resource/cam_stream -> /home/yesopi/Submarine/install/cam_stream/share/ament_index/resource_index/packages
+[0.979s] copying package.xml -> /home/yesopi/Submarine/install/cam_stream/share/cam_stream
+[0.979s] creating /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.979s] copying cam_stream/lib/show_img.py -> /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.979s] copying cam_stream/lib/cam_boton.py -> /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.979s] copying cam_stream/lib/Codigo_ranas.py -> /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.979s] copying cam_stream/lib/imgCrop.py -> /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.979s] running install_egg_info
+[0.980s] Copying ../../../../../build/cam_stream/cam_stream.egg-info to /home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages/cam_stream-0.0.0-py3.10.egg-info
+[0.980s] running install_scripts
+[0.996s] Installing driver_node script to /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.996s] Installing image_ctrl script to /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.996s] Installing realsense_node script to /home/yesopi/Submarine/install/cam_stream/lib/cam_stream
+[0.996s] writing list of installed files to '/home/yesopi/Submarine/build/cam_stream/install.log'
+[1.018s] Invoked command in '/home/yesopi/Submarine/src/CosasBasicasParaQueCopies/ros2_camera_ws/src/cam_stream' returned '0': PYTHONPATH=/home/yesopi/Submarine/build/cam_stream/prefix_override:/home/yesopi/Submarine/install/cam_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/cam_stream build --build-base /home/yesopi/Submarine/build/cam_stream/build install --record /home/yesopi/Submarine/build/cam_stream/install.log --single-version-externally-managed
