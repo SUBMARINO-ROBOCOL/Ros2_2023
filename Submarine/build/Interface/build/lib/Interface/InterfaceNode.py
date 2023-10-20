@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 
-import numpy as np
 import rclpy
+from sensor_msgs.msg import Image
 from geometry_msgs.msg import Twist
-from pynput import keyboard
 from rclpy.node import Node
-from PIL import ImageTk, Image
-import tkinter as tk
-import os
+from cv_bridge import CvBridge
 import cv2
+import tkinter as tk
+import numpy as np
+from pynput import keyboard
+
+
+
+
 
 
 
@@ -23,6 +27,11 @@ class Publicador(Node):
         self.i = 0
         self.movement = Twist()
         self.presionado=False
+        self.bridge=CvBridge()
+        # Create a subscription for camera data
+        self.camera_subscription = self.create_subscription(
+            Image, 'camera_topic', self.camera_callback, 10)
+
         #por defecto la velocidades son 1 
         self.angular_value = 1.0
         self.linear_value = 1.0
@@ -30,8 +39,7 @@ class Publicador(Node):
         # Crear ventana de tkinter para la interfaz de movimiento
         self.root = tk.Tk()
         self.root.title("Submarine Interface")
-        self.root.geometry("1000x600")
-
+        self.root.geometry("1000x600") 
         #mportar imagen de fondo
         #ruta_imagen = os.path.abspath("imagen_de_fondo.jpg")
         #image = Image.open(ruta_imagen)
@@ -50,7 +58,6 @@ class Publicador(Node):
         movement_frame = tk.Frame(self.root, bg=self.defaultbg, width=100, height=130, borderwidth=0, relief="groove")
         movement_frame.pack(side=tk.BOTTOM, anchor=tk.W, padx=10, pady=10)
         movement_frame.grid_propagate(False)
-
         movement_frame.grid_columnconfigure(0, weight=1)
         movement_frame.grid_columnconfigure(1, weight=1)
         movement_frame.grid_columnconfigure(2, weight=1)
@@ -80,7 +87,7 @@ class Publicador(Node):
         #
         self.camera2 = tk.Label(self.camera_frame, text="Cámara 2", bg='grey')
         self.camera2.grid(row=0, column=1, padx=5, pady=5, sticky="nsew")
-
+        self.cv2_image = None
         self.camera3 = tk.Label(self.camera_frame, text="Cámara 3", bg='grey')
         self.camera3.grid(row=0, column=2, padx=5, pady=5, sticky="nsew")
 
@@ -141,6 +148,24 @@ class Publicador(Node):
         self.movement.linear.x = self.linear_value
         self.publisher_.publish(self.movement)
         button.configure(bg='#FFA500')
+    def camera_callback(self, msg):
+        try:
+            # Convert the ROS2 Image message to OpenCV format
+            cv2_image = self.bridge.imgmsg_to_cv2(msg)
+
+            if cv2_image is not None:
+                self.cv2_image = cv2_image
+
+            # Display the image in your tkinter interface
+            if self.cv2_image is not None:
+                img = cv2.cvtColor(self.cv2_image, cv2.COLOR_BGR2RGB)
+                img = Image.fromarray(img)
+                imgtk = ImageTk.PhotoImage(image=img)
+                self.camera_label.imgtk = imgtk
+                self.camera_label.config(image=imgtk)
+
+        except Exception as e:
+            self.get_logger().error(f"Error processing camera data: {e}")
 
     def backward(self):
         button=self.s_button

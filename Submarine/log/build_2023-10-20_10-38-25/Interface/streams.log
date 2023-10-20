@@ -1,0 +1,26 @@
+[0.931s] Invoking command in '/home/yesopi/Ros2_2023/Submarine/src/Interface': PYTHONPATH=/home/yesopi/Ros2_2023/Submarine/build/Interface/prefix_override:/home/yesopi/Ros2_2023/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Ros2_2023/Submarine/build/Interface/build install --record /home/yesopi/Ros2_2023/Submarine/build/Interface/install.log --single-version-externally-managed
+[1.097s] running egg_info
+[1.097s] writing ../../build/Interface/Interface.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../build/Interface/Interface.egg-info/dependency_links.txt
+[1.098s] writing entry points to ../../build/Interface/Interface.egg-info/entry_points.txt
+[1.098s] writing requirements to ../../build/Interface/Interface.egg-info/requires.txt
+[1.098s] writing top-level names to ../../build/Interface/Interface.egg-info/top_level.txt
+[1.099s] reading manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../build/Interface/Interface.egg-info/SOURCES.txt'
+[1.129s] running build
+[1.129s] running build_py
+[1.130s] copying Interface/InterfaceNode.py -> /home/yesopi/Ros2_2023/Submarine/build/Interface/build/lib/Interface
+[1.130s] running install
+[1.185s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.186s]   warnings.warn(
+[1.187s] running install_lib
+[1.189s] copying /home/yesopi/Ros2_2023/Submarine/build/Interface/build/lib/Interface/InterfaceNode.py -> /home/yesopi/Ros2_2023/Submarine/install/Interface/lib/python3.10/site-packages/Interface
+[1.191s] byte-compiling /home/yesopi/Ros2_2023/Submarine/install/Interface/lib/python3.10/site-packages/Interface/InterfaceNode.py to InterfaceNode.cpython-310.pyc
+[1.201s] running install_data
+[1.203s] running install_egg_info
+[1.208s] removing '/home/yesopi/Ros2_2023/Submarine/install/Interface/lib/python3.10/site-packages/Interface-0.0.0-py3.10.egg-info' (and everything under it)
+[1.209s] Copying ../../build/Interface/Interface.egg-info to /home/yesopi/Ros2_2023/Submarine/install/Interface/lib/python3.10/site-packages/Interface-0.0.0-py3.10.egg-info
+[1.248s] running install_scripts
+[1.276s] Installing interface script to /home/yesopi/Ros2_2023/Submarine/install/Interface/lib/Interface
+[1.276s] writing list of installed files to '/home/yesopi/Ros2_2023/Submarine/build/Interface/install.log'
+[1.291s] Invoked command in '/home/yesopi/Ros2_2023/Submarine/src/Interface' returned '0': PYTHONPATH=/home/yesopi/Ros2_2023/Submarine/build/Interface/prefix_override:/home/yesopi/Ros2_2023/Submarine/install/Interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Interface build --build-base /home/yesopi/Ros2_2023/Submarine/build/Interface/build install --record /home/yesopi/Ros2_2023/Submarine/build/Interface/install.log --single-version-externally-managed
